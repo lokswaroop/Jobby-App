@@ -1,0 +1,77 @@
+.similarJobItem {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-job-item {
+    width: 350px;
+    margin-right: 20px;
+  }
+}
+.companyLogo {
+  width: 70px;
+  height: 70px;
+}
+.titleHeading {
+  color: #ffffff;
+}
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+.ratingIcon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.ratingPara {
+  color: #ffffff;
+}
+.descriptionHeading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.descriptionPara {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: 'Roboto';
+}
+.locationEmployeeContainer {
+  display: flex;
+  flex-direction: row;
+}
+.locationContainer {
+  display: flex;
+  align-items: center;
+}
+.locationIcon {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.locationPara {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.employeeTypeContainer {
+  display: flex;
+  align-items: center;
+}
+.briefCaseIcon {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.employeeTypePara {
+  color: #ffffff;
+}

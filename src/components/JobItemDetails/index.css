@@ -1,0 +1,85 @@
+.packagePara {
+  color: #ffffff;
+}
+.jobDetailsViewContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1180px;
+  padding-top: 20px;
+  background-color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .jobDetailsViewContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1180px;
+    padding-top: 20px;
+    background-color: #000000;
+  }
+}
+.jobItem {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .jobItem {
+    padding: 45px;
+  }
+}
+.titleHeading {
+  color: #ffffff;
+}
+.logoTitleLocationContainer {
+  display: flex;
+  flex-direction: column;
+}
+.logoTitleContainer {
+  display: flex;
+}
+.locationPackageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.descriptionVisitContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.visitContainer {
+  display: flex;
+  align-items: center;
+}
+.visitHeading {
+  color: #6a95ce;
+  font-size: 14px;
+  font-family: 'Roboto';
+  text-decoration: none;
+  padding-right: 4px;
+}
+.visitIcon {
+  color: #6a95ce;
+}
+.skillsListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.descriptionAndImageContainer {
+  display: flex;
+}
+.similarJobsHeading {
+  color: #ffffff;
+}
+.similarJobsList {
+  display: flex;
+}

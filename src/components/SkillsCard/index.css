@@ -1,0 +1,32 @@
+.skillsItemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .skillsItemContainer {
+    width: 30%;
+  }
+}
+.skillsContainer {
+  display: flex;
+}
+.skillImage {
+  width: 30px;
+  margin-right: 20px;
+}
+.skillName {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .skillImage {
+    width: 50px;
+  }
+  .skillName {
+    font-size: 18px;
+  }
+}
